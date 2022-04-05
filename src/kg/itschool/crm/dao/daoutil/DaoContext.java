@@ -1,7 +1,7 @@
-package dao.daoutil;
+package kg.itschool.crm.dao.daoutil;
 
-import dao.*;
-import dao.impl.*;
+import kg.itschool.crm.dao.*;
+import kg.itschool.crm.dao.impl.*;
 
 public abstract class DaoContext {
     static {

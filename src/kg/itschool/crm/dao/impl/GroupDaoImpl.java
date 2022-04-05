@@ -1,11 +1,11 @@
-package dao.impl;
+package kg.itschool.crm.dao.impl;
 
-import dao.GroupDao;
-import dao.daoutil.Log;
-import model.Course;
-import model.CourseFormat;
-import model.Group;
-import model.Mentor;
+import kg.itschool.crm.dao.GroupDao;
+import kg.itschool.crm.dao.daoutil.Log;
+import kg.itschool.crm.model.Course;
+import kg.itschool.crm.model.CourseFormat;
+import kg.itschool.crm.model.Group;
+import kg.itschool.crm.model.Mentor;
 
 import java.sql.*;
 import java.time.LocalTime;

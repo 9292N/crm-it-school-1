@@ -1,8 +1,8 @@
-package dao.impl;
+package kg.itschool.crm.dao.impl;
 
-import dao.CourseFormatDao;
-import dao.daoutil.Log;
-import model.CourseFormat;
+import kg.itschool.crm.dao.CourseFormatDao;
+import kg.itschool.crm.dao.daoutil.Log;
+import kg.itschool.crm.model.CourseFormat;
 
 import java.sql.*;
 import java.time.LocalTime;

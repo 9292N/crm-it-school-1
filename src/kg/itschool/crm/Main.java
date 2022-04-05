@@ -1,3 +1,5 @@
+package kg.itschool.crm;
+
 import java.util.*;
 
 public class Main {

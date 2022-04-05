@@ -1,6 +1,6 @@
-package dao;
+package kg.itschool.crm.dao;
 
-import model.CourseFormat;
+import kg.itschool.crm.model.CourseFormat;
 
 public interface CourseFormatDao extends CrudDao<CourseFormat> { // Generics - Обобщения
 }

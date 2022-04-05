@@ -1,4 +1,4 @@
-package model;
+package kg.itschool.crm.model;
 
 import java.time.LocalDateTime;
 

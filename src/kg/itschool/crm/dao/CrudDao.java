@@ -1,6 +1,6 @@
-package dao;
+package kg.itschool.crm.dao;
 
-import dao.daoutil.Log;
+import kg.itschool.crm.dao.daoutil.Log;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

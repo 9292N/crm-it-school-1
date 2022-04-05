@@ -1,10 +1,10 @@
-package dao.impl;
+package kg.itschool.crm.dao.impl;
 
-import dao.StudentDao;
-import dao.daoutil.Log;
-import model.Manager;
-import model.Mentor;
-import model.Student;
+import kg.itschool.crm.dao.StudentDao;
+import kg.itschool.crm.dao.daoutil.Log;
+import kg.itschool.crm.model.Manager;
+import kg.itschool.crm.model.Mentor;
+import kg.itschool.crm.model.Student;
 
 import java.sql.*;
 import java.util.ArrayList;

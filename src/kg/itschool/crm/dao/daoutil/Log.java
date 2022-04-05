@@ -1,4 +1,4 @@
-package dao.daoutil;
+package kg.itschool.crm.dao.daoutil;
 
 import java.time.LocalDateTime;
 

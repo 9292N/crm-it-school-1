@@ -1,28 +1,28 @@
-package model;
+package kg.itschool.crm.model;
 
 import java.time.LocalDate;
 
-public final class Mentor extends BaseEntity {
+public final class Student extends BaseEntity {
 
     private String firstName;
     private String lastName;
     private String phoneNumber;
     private String email;
     private LocalDate dob;
-    private Double salary;
+    private Group group;
 
-    public Mentor() {
+    public Student() {
         super();
     }
 
-    public Mentor(Long id, String firstName, String lastName, String phoneNumber, String email, LocalDate dob, Double salary) {
+    public Student(Long id, String firstName, String lastName, String phoneNumber, String email, LocalDate dob, Group group) {
         super(id);
         this.firstName = firstName;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.dob = dob;
-        this.salary = salary;
+        this.group = group;
     }
 
     public String getFirstName() {
@@ -65,24 +65,17 @@ public final class Mentor extends BaseEntity {
         this.dob = dob;
     }
 
-    public Double getSalary() {
-        return salary;
-    }
 
-    public void setSalary(Double salary) {
-        this.salary = salary;
-    }
 
     @Override
     public String toString() {
-        return "Mentor{" +
+        return "Student{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", email='" + email + '\'' +
                 ", dob=" + dob +
-                ", salary=" + salary +
                 ", dateCreated=" + dateCreated +
                 '}';
     }

@@ -1,8 +1,8 @@
-package dao.impl;
+package kg.itschool.crm.dao.impl;
 
-import dao.ManagerDao;
-import dao.daoutil.Log;
-import model.Manager;
+import kg.itschool.crm.dao.ManagerDao;
+import kg.itschool.crm.dao.daoutil.Log;
+import kg.itschool.crm.model.Manager;
 
 import java.sql.*;
 import java.util.ArrayList;

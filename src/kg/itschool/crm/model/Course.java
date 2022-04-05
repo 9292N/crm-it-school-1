@@ -1,4 +1,4 @@
-package model;
+package kg.itschool.crm.model;
 
 public final class Course extends BaseEntity {
 
