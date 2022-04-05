@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/crm</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="d45qoa3mssolpf@ec2-52-73-155-171.compute-1.amazonaws.com" uuid="77a11f37-4be6-44b2-8ed8-7279bc7f3433">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-52-73-155-171.compute-1.amazonaws.com:5432/d45qoa3mssolpf</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
